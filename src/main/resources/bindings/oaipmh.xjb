@@ -1,0 +1,24 @@
+<jxb:bindings version="2.1"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              xmlns:annox="http://annox.dev.java.net"
+              xmlns:namespace="http://jaxb2-commons.dev.java.net/namespace-prefix"
+              xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+              xmlns:bio="http://www.imr.no/schemas/nmdapi/nmdbiotic/v1"
+              xmlns:hub="http://www.imr.no/schemas/nmdapi/nmdhub/v1"
+              xmlns:mission="http://www.imr.no/schemas/nmdapi/nmdmission/v1"
+              xmlns:reference="http://www.imr.no/schemas/nmdapi/nmdreference/v1"
+              jxb:extensionBindingPrefixes="xjc annox"              >
+    <!-- By Kjetil Fjellheim (IMR) -->
+    <!--
+    This document is referenced from the pom and is used to change the generated classes.
+    The following has been added. -->
+    
+    
+     <jxb:globalBindings>
+            <xjc:simple/>
+     </jxb:globalBindings>
+        
+        
+    
+</jxb:bindings>
